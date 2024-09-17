@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/natalialabunskaia/frontend-project-44.git"
   },
-  "author": "",
+  "author": "Natalia Labunskaia",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/natalialabunskaia/frontend-project-44/issues"
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/natalialabunskaia/frontend-project-44#readme",
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+"bin": {
+  "brain-games": "bin/brain-games.js"
+}
 }
