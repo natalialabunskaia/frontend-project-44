@@ -18,11 +18,13 @@
   "type": "module",
   "homepage": "https://github.com/natalialabunskaia/frontend-project-44#readme",
   "dependencies": {
+    "is-even": "^1.0.0",
     "lodash": "^4.17.21",
     "readline-sync": "^1.4.10"
   },
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "devDependencies": {
     "@eslint/create-config": "^1.0.0",
