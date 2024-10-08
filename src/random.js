@@ -3,4 +3,12 @@ const getRandomInt = (min, max) => {
   const tmpMax = Math.floor(max);
   return Math.floor(Math.random() * (tmpMax - tmpMin + 1) + tmpMin);
 };
-export default getRandomInt;
+
+const getRandomOperator = () => {
+  const arr = ['+', '-', '*'];
+  const randomIndex = Math.floor(Math.random() * arr.length);
+  const randomOperator = arr[randomIndex];
+  return randomOperator;
+};
+
+export default { getRandomInt, getRandomOperator };
