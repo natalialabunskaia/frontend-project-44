@@ -52,6 +52,16 @@ export default [
       'import/no-named-as-default-member': 'off',
       'no-console': 'off',
       'import/no-extraneous-dependencies': 'off',
+      'max-len': [
+        'error',
+        {
+          code: 200,
+          ignoreComments: true,
+          ignoreUrls: true,
+          ignoreStrings: true,
+          ignoreTemplateLiterals: true,
+        },
+      ],
     },
   },
 ];

@@ -20,6 +20,7 @@ const calculate = (operator, x, y) => {
   if (operator === '*') {
     return x * y;
   }
+  return null;
 };
 
 const getQuestionAndAnswer = () => {
