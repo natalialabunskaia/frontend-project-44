@@ -5,8 +5,8 @@ const startGame = (gameRules, getQuestionAndAnswer) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(gameRules);
-
-  for (let counter = 1; counter <= 3; counter += 1) {
+  const roundCounts = 3;
+  for (let counter = 1; counter <= roundCounts; counter += 1) {
     const [question, correctAnswer] = getQuestionAndAnswer();
     const answer = readlineSync.question(`Question: ${question} `);
 

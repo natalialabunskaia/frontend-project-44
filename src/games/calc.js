@@ -5,7 +5,7 @@ const gameRules = 'What is the result of the expression?';
 
 const getRandomOperator = () => {
   const operators = ['+', '-', '*'];
-  const randomIndex = Math.floor(Math.random() * operators.length);
+  const randomIndex = getRandomInt(0, 2);
   const randomOperator = operators[randomIndex];
   return randomOperator;
 };

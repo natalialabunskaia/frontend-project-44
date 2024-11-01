@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/natalialabunskaia/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/natalialabunskaia/frontend-project-44/actions)",
+  "description": "A collection of interactive console games designed to enhance logic and math skills. Features include arithmetic calculations, prime number tests, and more. Perfect for practice or entertainment![![Actions Status](https://github.com/natalialabunskaia/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/natalialabunskaia/frontend-project-44/actions)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/natalialabunskaia/frontend-project-44.git"
   },
-  "author": "Natalia Labunskaia",
+  "author": "Natalia Labunskaia, nlabunskya@gmail.com, https://github.com/natalialabunskaia",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/natalialabunskaia/frontend-project-44/issues"
