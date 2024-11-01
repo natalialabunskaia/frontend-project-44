@@ -19,7 +19,6 @@
   "homepage": "https://github.com/natalialabunskaia/frontend-project-44#readme",
   "dependencies": {
     "is-even": "^1.0.0",
-    "lodash": "^4.17.21",
     "readline-sync": "^1.4.10"
   },
   "bin": {
@@ -31,15 +30,10 @@
     "brain-prime": "bin/brain-prime.js"
   },
   "devDependencies": {
-    "@eslint/create-config": "^1.0.0",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.10.0",
     "eslint": "^8.57.1",
-    "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.30.0",
-    "eslint-plugin-jsx-a11y": "^6.10.0",
-    "eslint-plugin-react": "^7.36.1",
-    "eslint-plugin-react-hooks": "^4.6.2",
     "globals": "^15.9.0"
   }
 }
