@@ -47,19 +47,19 @@ The following games are available:
 
 1. To run a specific game, execute the corresponding command in the terminal:
     ```bash
-    brain-even
+    make brain-even
     ```
     ```bash
-    brain-calc
+    make brain-calc
     ```
     ```bash
-    brain-gcd
+    make brain-gcd
     ```
     ```bash
-    brain-progression
+    make brain-progression
     ```
     ```bash
-    brain-prime
+    make brain-prime
     ```
 
 2. Follow the on-screen instructions and provide answers to the questions to win.
